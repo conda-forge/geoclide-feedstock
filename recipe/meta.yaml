@@ -1,5 +1,5 @@
 {% set name = "geoclide" %}
-{% set version = "1.2.2" %}
+{% set version = "2.0.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/geoclide-{{ version }}.tar.gz
-  sha256: 86113faf89f30e5f6d7b7a75323a50b0a0146dc6d3cce9ca4a98d72b26ba29d6
+  sha256: d717c94d253f293d21c4f337ad2c55cf207e5d42e4dd37679667dccc7ff1125f
 
 build:
   noarch: python
@@ -24,6 +24,11 @@ requirements:
     - numpy
     - xarray
     - pytest
+    - matplotlib-base
+    - ipympl
+    - ipykernel
+    - netcdf4
+    - trimesh
 
 test:
   imports:
