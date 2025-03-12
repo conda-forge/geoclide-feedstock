@@ -3,11 +3,11 @@ About geoclide-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/geoclide-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/hygeos/geoclide
+Home: https://hygeos.github.io/geoclide/
 
 Package license: [LicenseRef-HYGEOS-geoclide](https://github.com/hygeos/geoclide/blob/main/LICENSE.txt)
 
-Summary: The python package for geometric calculations in the three-dimentional Euclidian space
+Summary: A python package for geometric calculations in the three-dimentional Euclidian space
 
 Development: https://github.com/hygeos/geoclide
 
