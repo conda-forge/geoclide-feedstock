@@ -1,5 +1,5 @@
 {% set name = "geoclide" %}
-{% set version = "2.0.2" %}
+{% set version = "3.0.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/geoclide-{{ version }}.tar.gz
-  sha256: 640b2df770ad0c4f2e116d0519e5f855833a3d28b8e5b5c4f39ebd0a65f566ae
+  sha256: 20b88d03c8b42346f1ca05621e6ac700dd1accfe8c179ae047ea574367d6f194
 
 build:
   noarch: python
@@ -40,8 +40,8 @@ test:
     - pip
 
 about:
-  home: https://github.com/hygeos/geoclide
-  summary: The python package for geometric calculations in the three-dimentional Euclidian space
+  home: https://hygeos.github.io/geoclide/
+  summary: A python package for geometric calculations in the three-dimentional Euclidian space
   license: LicenseRef-HYGEOS-geoclide
   license_url: https://github.com/hygeos/geoclide/blob/main/LICENSE.txt
   license_file: LICENSE.txt
