@@ -1,5 +1,5 @@
 {% set name = "geoclide" %}
-{% set version = "3.0.0" %}
+{% set version = "3.0.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/geoclide-{{ version }}.tar.gz
-  sha256: 20b88d03c8b42346f1ca05621e6ac700dd1accfe8c179ae047ea574367d6f194
+  sha256: 7804629e7fdcb910524c27c961dd58013782d5d3ae3f1c1aa56d5fd24cf07ccc
 
 build:
   noarch: python
