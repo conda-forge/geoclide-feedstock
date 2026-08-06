@@ -41,8 +41,8 @@ test:
 
 about:
   home: https://hygeos.github.io/geoclide/
-  summary: A python package for geometric calculations in the three-dimentional Euclidian space
-  license: LicenseRef-HYGEOS-geoclide
+  summary: A python package for geometric calculations in the three-dimentional Euclidean space
+  license: Apache-2.0
   license_url: https://github.com/hygeos/geoclide/blob/main/LICENSE.txt
   license_file: LICENSE.txt
   dev_url: https://github.com/hygeos/geoclide
